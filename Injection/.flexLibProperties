@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.syringeas3.inject.MedicineJar"/>
+    <classEntry path="com.syringeas3.inject.Dispensary"/>
+    <classEntry path="com.syringeas3.inject.RareAntidoteDispensary"/>
+    <classEntry path="com.syringeas3.inject.SyndromeSubject"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

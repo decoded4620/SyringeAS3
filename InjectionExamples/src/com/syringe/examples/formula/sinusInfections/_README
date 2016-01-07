@@ -1,0 +1,13 @@
+Package: (*.forumla.sinusinfections)
+
+Contents:
+    Interface 'ISinusInfectionFormula':
+        A generic extension of 'ISinusInfectionSyndrome' in the (*.syndrome) package
+        The ISinusInfectionSyndrome is implemented by MajorSinusInfectionFormula and MinorSinusInfectionFormula
+    
+
+    Class 'MajorSinusInfectionFormula':
+        A treatment for a variant of 'ISinusInfectionSyndrome' from the (*.syndrome) package.
+    
+    Class 'MinorSinusInfectionFormula':
+        A treatment for a variant of 'ISinusInfectionSyndrome' from the (*.syndrome) package.

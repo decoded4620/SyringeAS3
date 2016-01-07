@@ -1,0 +1,16 @@
+Package: (*.syndrome)
+
+    Contents:
+        Interface: ISinusInfectionSyndrome
+            Represents the 'base type' of 'Sinus Infection' that can be treated by any of the Formulas for a Sinus Infection.
+            ISinusInfectionFormula from the (*.formula.sinusInfections) package implements this interface.
+            MajorSinusInfectionFormula and MinorSinusInfectionFormula both implement ISinusInfectionFormula,
+            which extends ISinusInfectionSyndrome, thus they are effective 'treatments' for ISinusInfectionSyndrome. 
+            Which is optimal depends on your mapping (variant) setup.
+            
+        Interface: ITummyAcheSyndrome
+            Represents the 'base type' of 'Tummy Ache' that can be treated by any of the Formulas for a Tummy Ache.
+            ITummyFormula from the (*.formula.tummyAches) package implements this interface.
+            MinorTummyAcheFormula implements ITummyAcheFormula which extends ITummyAcheSyndrome, thus, it is an effective 'treatment'
+            for ITummyAcheSyndrome.
+            

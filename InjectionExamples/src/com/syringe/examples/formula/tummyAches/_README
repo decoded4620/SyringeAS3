@@ -1,0 +1,9 @@
+Package: (*.forumla.sinusinfections)
+
+Contents:
+    Interface 'ITummyAcheFormula':
+        A generic extension of 'ITummyAcheSyndrome' in the (*.syndrome) package
+        The ITummyAcheSyndrome is implemented by MinorTummyAcheFormula from the (*.formula.tummyAches) package
+        
+    Class 'MinorTummyAcheFormula':
+        A treatment for a variant of 'ITummyAcheSyndrome' from the (*.syndrome) package.
